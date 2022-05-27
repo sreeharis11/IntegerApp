@@ -1,0 +1,60 @@
+2022-05-28 00:09:57.519  INFO 12100 --- [http-nio-8080-exec-3] c.n.I.controller.IntegerController       : uri : /integer/loadData (GET) : Loading new data 2,-1,-22,-22,3,4,4,4,44,4,6,-12,6
+2022-05-28 00:09:57.529  INFO 12100 --- [http-nio-8080-exec-3] c.n.IntegerApp.service.IntegerService    : Raw Data loaded : [2, -1, -22, -22, 3, 4, 4, 4, 44, 4, 6, -12, 6]
+2022-05-28 00:09:57.529  INFO 12100 --- [http-nio-8080-exec-3] c.n.IntegerApp.service.IntegerService    : Raw Data processed : zero count = 0, positive count = 9, negative count = 4, distinct numbers = [2, -1, -22, 3, 4, 44, 6, -12]
+2022-05-28 00:10:55.869  INFO 12100 --- [http-nio-8080-exec-4] c.n.I.controller.IntegerController       : uri : /integer/loadData (GET) : Loading new data 2,-1,-22,-22,3,4,4,4,44,4,6,-12,6
+2022-05-28 00:10:55.903  INFO 12100 --- [http-nio-8080-exec-4] c.n.IntegerApp.service.IntegerService    : Raw Data loaded : [2, -1, -22, -22, 3, 4, 4, 4, 44, 4, 6, -12, 6]
+2022-05-28 00:10:55.904  INFO 12100 --- [http-nio-8080-exec-4] c.n.IntegerApp.service.IntegerService    : Raw Data processed : zero count = 0, positive count = 9, negative count = 4, distinct numbers = [2, -1, -22, 3, 4, 44, 6, -12]
+2022-05-28 00:16:42.456  INFO 12100 --- [http-nio-8080-exec-9] c.n.I.controller.IntegerController       : uri : /integer/frequency/zero : Querying number of zeroes
+2022-05-28 00:16:42.457  INFO 12100 --- [http-nio-8080-exec-9] c.n.I.controller.IntegerController       : Number of zeroes : 0
+2022-05-28 00:16:53.238  INFO 12100 --- [http-nio-8080-exec-10] c.n.I.controller.IntegerController       : uri : /integer/frequency/zero : Querying number of zeroes
+2022-05-28 00:16:53.238  INFO 12100 --- [http-nio-8080-exec-10] c.n.I.controller.IntegerController       : Number of zeroes : 0
+2022-05-28 00:17:05.820  INFO 12100 --- [http-nio-8080-exec-1] c.n.I.controller.IntegerController       : uri : /integer/loadData (GET) : Loading new data 2,-1,-22,-22,3,4,4,4,44,4,6,-12,6
+2022-05-28 00:17:05.821  INFO 12100 --- [http-nio-8080-exec-1] c.n.IntegerApp.service.IntegerService    : Raw Data loaded : [2, -1, -22, -22, 3, 4, 4, 4, 44, 4, 6, -12, 6]
+2022-05-28 00:17:05.821  INFO 12100 --- [http-nio-8080-exec-1] c.n.IntegerApp.service.IntegerService    : Raw Data processed : zero count = 0, positive count = 9, negative count = 4, distinct numbers = [2, -1, -22, 3, 4, 44, 6, -12]
+2022-05-28 00:17:12.141  INFO 12100 --- [http-nio-8080-exec-2] c.n.I.controller.IntegerController       : uri : /integer/loadData (GET) : Loading new data 2,-1,-22,-22,3,4,4,4,44,4,6,-12,6,0,0
+2022-05-28 00:17:12.142  INFO 12100 --- [http-nio-8080-exec-2] c.n.IntegerApp.service.IntegerService    : Raw Data loaded : [2, -1, -22, -22, 3, 4, 4, 4, 44, 4, 6, -12, 6, 0, 0]
+2022-05-28 00:17:12.142  INFO 12100 --- [http-nio-8080-exec-2] c.n.IntegerApp.service.IntegerService    : Raw Data processed : zero count = 2, positive count = 9, negative count = 4, distinct numbers = [2, -1, -22, 3, 4, 44, 6, -12, 0]
+2022-05-28 00:17:17.890  INFO 12100 --- [http-nio-8080-exec-3] c.n.I.controller.IntegerController       : uri : /integer/frequency/zero : Querying number of zeroes
+2022-05-28 00:17:17.890  INFO 12100 --- [http-nio-8080-exec-3] c.n.I.controller.IntegerController       : Number of zeroes : 2
+2022-05-28 00:19:27.063  INFO 12100 --- [http-nio-8080-exec-8] c.n.I.controller.IntegerController       : uri : /integer/frequency/positive : Querying number of positive integers
+2022-05-28 00:19:27.063  INFO 12100 --- [http-nio-8080-exec-8] c.n.I.controller.IntegerController       : Number of positive integers : 9
+2022-05-28 00:20:44.191  INFO 12100 --- [http-nio-8080-exec-10] c.n.I.controller.IntegerController       : uri : /integer/frequency/negative : Querying number of negative integers
+2022-05-28 00:20:44.192  INFO 12100 --- [http-nio-8080-exec-10] c.n.I.controller.IntegerController       : Number of negative integers : 4
+2022-05-28 00:22:28.934  INFO 12100 --- [http-nio-8080-exec-3] c.n.I.controller.IntegerController       : uri : /integer/frequency/*integer : Querying number of occurences of 3
+2022-05-28 00:22:28.935  INFO 12100 --- [http-nio-8080-exec-3] c.n.I.controller.IntegerController       : Number of negative occurences of 3 : 1
+2022-05-28 00:31:00.844  INFO 12100 --- [http-nio-8080-exec-6] c.n.I.controller.IntegerController       : uri : /integer/frequency/distinct : Querying distinct integers
+2022-05-28 00:31:00.849  INFO 12100 --- [http-nio-8080-exec-6] c.n.I.controller.IntegerController       : Distinct Integers : [2, -1, -22, 3, 4, 44, 6, -12, 0] 
+2022-05-28 00:31:35.107  INFO 12100 --- [http-nio-8080-exec-8] c.n.I.controller.IntegerController       : uri : /integer/frequency/distinct : Querying distinct integers
+2022-05-28 00:31:35.112  INFO 12100 --- [http-nio-8080-exec-8] c.n.I.controller.IntegerController       : Distinct Integers : [2, -1, -22, 3, 4, 44, 6, -12, 0] 
+2022-05-28 00:37:45.408  INFO 12100 --- [http-nio-8080-exec-2] c.n.I.controller.IntegerController       : uri : /integer/loadData (GET) : Loading new data 2,10,0,5,6
+2022-05-28 00:37:45.413  INFO 12100 --- [http-nio-8080-exec-2] c.n.IntegerApp.service.IntegerService    : Raw Data loaded : [2, 10, 0, 5, 6]
+2022-05-28 00:37:45.413  INFO 12100 --- [http-nio-8080-exec-2] c.n.IntegerApp.service.IntegerService    : Raw Data processed : zero count = 1, positive count = 4, negative count = 0, distinct numbers = [2, 10, 0, 5, 6]
+2022-05-28 00:37:49.256  INFO 12100 --- [http-nio-8080-exec-1] c.n.I.controller.IntegerController       : uri : /integer/frequency/distinct : Querying distinct integers
+2022-05-28 00:37:49.264  INFO 12100 --- [http-nio-8080-exec-1] c.n.I.controller.IntegerController       : Distinct Integers : [2, 10, 0, 5, 6] 
+2022-05-28 00:37:59.448  INFO 12100 --- [http-nio-8080-exec-3] c.n.I.controller.IntegerController       : uri : /integer/frequency/negative : Querying number of negative integers
+2022-05-28 00:37:59.448  INFO 12100 --- [http-nio-8080-exec-3] c.n.I.controller.IntegerController       : Number of negative integers : 0
+2022-05-28 00:46:28.685  INFO 12100 --- [RMI TCP Connection(100)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-28 00:46:33.919  INFO 14364 --- [main] c.n.IntegerApp.IntegerAppApplication     : Starting IntegerAppApplication using Java 1.8.0_162 on SREEHARI with PID 14364 (C:\Users\sreeh\OneDrive\Documents\IntegerApp\IntegerApp\target\classes started by sreeh in C:\Users\sreeh\OneDrive\Documents\IntegerApp\IntegerApp)
+2022-05-28 00:46:33.919  INFO 14364 --- [main] c.n.IntegerApp.IntegerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-05-28 00:46:35.137  INFO 14364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-28 00:46:35.153  INFO 14364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-28 00:46:35.153  INFO 14364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-28 00:46:35.340  INFO 14364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-28 00:46:35.340  INFO 14364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1359 ms
+2022-05-28 00:46:35.824  INFO 14364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-28 00:46:35.840  INFO 14364 --- [main] c.n.IntegerApp.IntegerAppApplication     : Started IntegerAppApplication in 2.537 seconds (JVM running for 3.679)
+2022-05-28 00:47:35.720  INFO 14364 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-28 00:47:35.726  INFO 14364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-28 00:47:35.727  INFO 14364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-28 00:47:35.776  INFO 14364 --- [http-nio-8080-exec-1] c.n.I.controller.IntegerController       : uri : /integer/loadData (GET) : Loading new data 2,-1,-22,-22,3,4,4,4,44,4,6,-12,6
+2022-05-28 00:47:35.783  INFO 14364 --- [http-nio-8080-exec-1] c.n.IntegerApp.service.IntegerService    : Raw Data loaded : [2, -1, -22, -22, 3, 4, 4, 4, 44, 4, 6, -12, 6]
+2022-05-28 00:47:35.783  INFO 14364 --- [http-nio-8080-exec-1] c.n.IntegerApp.service.IntegerService    : Raw Data processed : zero count = 0, positive count = 9, negative count = 4, distinct numbers = [2, -1, -22, 3, 4, 44, 6, -12]
+2022-05-28 00:47:40.530  INFO 14364 --- [http-nio-8080-exec-2] c.n.I.controller.IntegerController       : uri : /integer/frequency/*integer : Querying number of occurences of 3
+2022-05-28 00:47:40.536  INFO 14364 --- [http-nio-8080-exec-2] c.n.I.controller.IntegerController       : Number of negative occurences of 3 : 1
+2022-05-28 00:47:51.775  INFO 14364 --- [http-nio-8080-exec-3] c.n.I.controller.IntegerController       : uri : /integer/clearData : calling clear data service
+2022-05-28 00:49:28.314  INFO 14364 --- [http-nio-8080-exec-5] c.n.I.controller.IntegerController       : uri : /integer/frequency/zero : Querying number of zeroes
+2022-05-28 00:49:28.320  INFO 14364 --- [http-nio-8080-exec-5] c.n.I.controller.IntegerController       : Data not yet loaded
+2022-05-28 00:58:47.145  INFO 16336 --- [main] c.n.I.IntegerAppApplicationTests         : Starting IntegerAppApplicationTests using Java 1.8.0_162 on SREEHARI with PID 16336 (started by sreeh in C:\Users\sreeh\OneDrive\Documents\IntegerApp\IntegerApp)
+2022-05-28 00:58:47.145  INFO 16336 --- [main] c.n.I.IntegerAppApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2022-05-28 00:58:50.233  INFO 16336 --- [main] c.n.I.IntegerAppApplicationTests         : Started IntegerAppApplicationTests in 3.642 seconds (JVM running for 5.527)
+2022-05-28 01:00:06.172  INFO 14364 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
